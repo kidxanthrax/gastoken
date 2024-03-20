@@ -1,0 +1,333 @@
+body {
+	background-image: url("yuhh2.png");
+	background-size: cover; /* Cover the entire page; use 'contain' to fit the image */
+	background-repeat: no-repeat;
+}
+
+body, html {
+    width: 1920px;
+	height: 4448px;
+	margin: 0;
+    padding: 0;
+	cursor: url("ASSETS/CURSOR/hol216.png"), auto
+}
+
+.box {
+width: 1920px;
+height: 4448px;
+}
+
+.footer, .content-above-footer {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-position: 0 0; /* Start from top-left corner */
+    background-repeat: no-repeat; /* Prevent repeating the background */
+	width: 1720px;
+}
+
+.container {
+    position: absolute;
+    min-height: 4120px;
+}
+
+.content-container {
+    position: relative; /* Allows for absolute positioning within */
+    text-align: center; /* Center the content */
+    z-index: 10; /* Ensure it's positioned correctly in the stacking context */
+}
+
+#overlay-gif {
+    position: absolute;
+	top: 37%;
+    left: 50%;
+    width: 45%; /* New width to match the button GIF */
+    transform: translate(-50%, -50%); /* Adjust for precise centering */
+    z-index: 11; /* Ensure the GIF overlays the button */
+	margin: 0;
+}
+
+#below-gif {
+	position: absolute;
+	top: 0%;
+}
+
+/* Image */
+.content-container .overlay-gif img{
+ 	display:inline-block;
+ 	transform:translatex(-5px) translatey(-201px);
+ 	padding-bottom:0px;
+ 	height:92px;
+ 	margin-right:0px;
+	width:825px;
+}
+
+/* Image */
+.below-gif img{
+ 	display:inline-block;
+ 	transform:translatex(371px) translatey(-138px);
+}
+
+/* Image */
+.content-container .button-image img{
+ 	display:inline-block;
+ 	transform:translatex(0px) translatey(-16px);
+}
+
+/* Image */
+.below-gif2 img{
+ 	display:inline-block;
+ 	transform:translatex(530px) translatey(1681px);
+}
+
+/* Image */
+.coin-1 img{
+	display:inline-block;
+ 	transform:translatex(371px) translatey(-135px);
+	height:226px;
+}
+
+/* Image */
+.coin-2 img{
+	display:inline-block;
+	transform:translatex(1315px) translatey(-366px);
+	height:229px;
+}
+
+/* Image */
+.DEMON-1 img{
+	display:inline-block;
+	transform:translatex(371px) translatey(76px);
+}
+
+/* Image */
+.DEMON-2 img{
+	display:inline-block;
+	transform:translatex(1343px) translatey(-229px);
+}
+
+/* Image */
+.invest-now-1 img{
+	display:inline-block;
+	transform:translatex(650px) translatey(-465px);
+}
+
+/* Image */
+.nvidia img{
+	display:inline-block;
+	transform:translatex(316px) translatey(-525px);
+	min-height:397px;
+	width:1305px;
+	margin-right:14px;
+}
+
+/* Image */
+.jin4 img{
+ 	display:inline-block;
+ 	transform:translatex(761px) translatey(-1006px);
+ 	height: 144px;
+}
+
+/* Image */
+.jin3 img{
+	transform:translatex(622px) translatey(-856px);
+	height: 144px;
+}
+
+/* Image */
+.jin2 img{
+ 	transform:translatex(484px) translatey(-709px);
+ 	height: 144px;
+}
+
+/* Image */
+.jin1 img{
+	transform:translatex(346px) translatey(-559px);
+	height: 144px;
+}
+
+/* Image */
+.jin5 img{
+	display:inline-block;
+	transform:translatex(899px) translatey(-1149px);
+	height: 144px;
+}
+
+/* Image */
+.jin6 img{
+	display:inline-block;
+	transform:translatex(1037px) translatey(-1302px);
+	height: 144px;
+}
+
+/* Image */
+.jin7 img{
+ 	display:inline-block;
+ 	transform:translatex(1175px) translatey(-1449px);
+ 	height: 144px;
+}
+
+/* Image */
+.jin8 img{
+ 	display:inline-block;
+ 	transform:translatex(1313px) translatey(-1595px);
+ 	height: 144px;
+}
+
+/* Image */
+.jin9 img{
+ 	transform:translatex(1451px) translatey(-1743px);
+ 	height: 144px;
+}
+
+/* Image */
+.below-gif2 img{
+ 	transform:translatex(369px) translatey(-1735px);
+}
+
+/* Image */
+.below-gif3 img{
+ 	display:inline-block;
+ 	transform:translatex(369px) translatey(-2164px);
+}
+
+/* Image */
+.thunder img{
+ 	display:inline-block;
+ 	transform:translatex(572px) translatey(-2151px);
+}
+
+/* Image */
+.coin-4 img{
+ 	display:inline-block;
+ 	transform:translatex(414px) translatey(-1968px);
+ 	height:225px;
+}
+
+/* Image */
+.coin-3 img{
+ 	display:inline-block;
+ 	transform:translatex(1261px) translatey(-1739px);
+ 	height:225px;
+}
+
+/* Image */
+.DEMON-3 img{
+ 	display:inline-block;
+	transform:translatex(370px) translatey(-1369px);
+}	
+
+/* Image */
+.DEMON-4 img{
+	display:inline-block;
+	transform:translatex(1367px) translatey(-1678px);
+}
+
+/* Image */
+.invest-now-2 img{
+	display:inline-block;
+	transform:translatex(677px) translatey(-1174px);
+}
+
+/* Body */
+body{
+	margin-bottom:0px;
+}
+
+/* Image */
+.BIGJINANTIJIN img{
+	display:inline-block;
+	transform:translatex(723px) translatey(-1858px);
+	width:534px;
+}
+
+/* Image */
+.metallic img{
+	display:inline-block;
+	transform:translatex(370px) translatey(-1948px);
+	min-height:157px;
+}
+
+/* Image */
+.coin-5 img{
+ 	display:inline-block;
+ 	transform:translatex(140px) translatey(-2175px);
+ 	height:243px;
+}
+
+/* Image */
+.coin-6 img{
+ 	display:inline-block;
+ 	transform:translatex(1505px) translatey(-2419px);
+ 	padding-bottom:14px;
+ 	height:241px;
+}
+
+/* Times new roman text */
+.times-new-roman-text {
+ min-height:97px;
+ transform:translatex(642px) translatey(-5800px);
+ width:568px;
+ display:inline-block;
+ font-size:45px;
+ line-height:0px;
+ text-align:center;
+ text-decoration:underline;
+ letter-spacing:normal;
+}
+
+/* Image */
+footer .footer-image img{
+ transform:translatex(0px) translatey(-2636px);
+}
+
+/* Image */
+.pregnant img{
+ display:inline-block;
+ transform:translatex(1365px) translatey(-935px);
+}
+
+/* Image */
+.yooo img{
+ display:inline-block;
+ transform:translatex(982px) translatey(-1623px);
+ width:383px;
+}
+
+.times-new-roman-text2 a{
+ display:inline-block;
+ height:44px;
+ width:422px;
+ transform:translatex(745px) translatey(-5844px);
+ font-size:45px;
+ color: #FF0000;
+}
+
+/* Link */
+.times-new-roman-text a{
+ display:inline-block;
+ transform:translatex(17px) translatey(24px);
+ color: #FF0000;
+}
+
+/* Link */
+.times-new-roman-text3 a{
+ font-size:40px;
+ display:inline-block;
+ transform:translatex(704px) translatey(-5837px);
+ color: #FF0000;
+}
+
+/* Paragraph */
+.times-new-roman-text4 p{
+ font-size:29px;
+ transform:translatex(660px) translatey(-3484px);
+}
+
+/* Paragraph */
+.times-new-roman-text5 p{
+ font-size:29px;
+ transform:translatex(631px) translatey(-5892px);
+}
