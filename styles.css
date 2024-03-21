@@ -5,6 +5,8 @@ body {
 }
 
 body, html {
+    width: 1920px;
+	height: 4448px;
 	margin: 0;
     padding: 0;
 	cursor: url("ASSETS/CURSOR/hol216.png"), auto
@@ -28,6 +30,7 @@ header {
 
 .container {
     position: absolute;
+    min-height: 4120px;
 }
 
 .content-container {
